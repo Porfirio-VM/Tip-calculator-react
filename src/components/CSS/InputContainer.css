@@ -1,0 +1,43 @@
+.input-container{
+    color: var(--dark-grayish-cyan);
+}
+.input-cont{
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 8px;
+    background-color: var(--very-light-grayish-cyan);
+}
+.input-n{
+    font-family: 'Space Mono', monospace;
+    text-align: end;
+    color: inherit;
+    font-size: 20px;
+    border: none;
+    background: none;
+    width: 90%;
+}
+.input-n::-webkit-inner-spin-button,
+.input-n::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+.input-n:focus{
+    outline: none;
+}
+.input-cont:focus-within{
+   outline: 2px solid var(--strong-cyan);
+}
+.require{
+    outline: 2px solid tomato;
+    position: relative;
+}
+.require::after{
+    content: 'Cant be zero';
+    color: tomato;
+    position: absolute;
+    right: 0;
+    top: -50%;
+}

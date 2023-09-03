@@ -1,0 +1,31 @@
+.result-cont{
+    margin-bottom: 40px;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.result-cont p{
+    opacity: .5;
+}
+.result-container h1{
+    font-size: 40px;
+    color: var(--strong-cyan);
+}
+.reset{
+  color: var( --very-dark-cyan);
+  cursor: pointer;  
+  background-color: var(--strong-cyan);
+  font-weight: 700;
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+}
+.reset:hover{
+    background-color: var(--light-grayish-cyan);
+}
+.reset:disabled{
+    opacity: .3;
+    cursor:default;
+}

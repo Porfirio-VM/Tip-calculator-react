@@ -1,0 +1,36 @@
+#root {
+  width: 70%;
+}
+header{
+  color: var(--very-dark-cyan);
+  text-align: center;
+  letter-spacing: 10px;
+  margin-bottom: 30px;
+}
+main{
+  display: flex;
+  gap: 1.5rem;
+  padding: 2rem;
+  background-color: var(--white);
+  border-radius: 10px;
+}
+main section:last-child{
+  padding: inherit;
+  border-radius: inherit;
+  background-color: var(--very-dark-cyan)
+}
+section{
+  width: 50%;
+}
+@media (max-width: 960px) {
+  #root {
+    width: 90%;
+  }
+  main {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  section{
+    width: 100%;
+  }
+}
