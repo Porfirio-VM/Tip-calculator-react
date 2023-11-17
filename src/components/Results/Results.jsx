@@ -10,14 +10,14 @@ function Results(){
         <section className='flex results-section'>
             <div className="flex tip-wrapper">
                 <div className="flex wrapper-title">
-                    <h4>Tip Amount</h4>
+                    <p>Tip Amount</p>
                     <span>/ person</span>
                 </div>
                 <h2>${tip}</h2>
             </div>
             <div className="flex tip-wrapper">
                 <div className="wrapper-title">
-                    <h4>Total</h4>
+                    <p>Total</p>
                     <span>/ person</span>
                 </div>
                 <h2>${bill}</h2>

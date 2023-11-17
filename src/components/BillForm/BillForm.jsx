@@ -15,7 +15,7 @@ function BillForm(){
                     <div className="input-wrapper">
                         <label htmlFor="bill">Bill</label>
                         <div className="flex custom-input">
-                            <img src={dolarImg} alt="" style={{width: '.7em'}}/>
+                            <img src={dolarImg} alt="" style={{width: '.7em', height: 'auto'}}/>
                             <input type="number" name="" id="bill" placeholder='0' step='0.01' onInput={setBill}/>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ function BillForm(){
                             {people && people <= 0 && 
                                 <span className="error">{`Can't be zero`}</span>
                             }
-                            <img src={userImg} alt="" style={{width: '.7em'}}/>
+                            <img src={userImg} alt="" style={{width: '.7em', height: 'auto'}}/>
                             <input type="number" name="" id="people" placeholder="0" onInput={setPeople}/>
                         </div>
                     </div>

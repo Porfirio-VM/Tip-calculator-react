@@ -21,7 +21,7 @@
     flex-direction: column;
 }
 
-.wrapper-title h4{
+.wrapper-title p{
     color: var(--white);
 }
 
