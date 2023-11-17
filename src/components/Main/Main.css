@@ -1,0 +1,20 @@
+.title{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.title span{
+    color: var(--very-dark-cyan);
+    letter-spacing: 10px;
+    font-size: .7em;
+    display: block;
+    text-transform: uppercase;
+}
+
+.main-container{
+    border-radius: 10px;
+    padding: 1.4rem;
+    background-color: var(--white);
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit,minmax(230px, 1fr));
+}
